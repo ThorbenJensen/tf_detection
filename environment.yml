@@ -10,7 +10,7 @@ dependencies:
     - lxml
     - jupyter
     - matplotlib
-    - tensorflow~=2.0.0
+    - tensorflow~=1.14.0
     # dev
     - black
     - flake8

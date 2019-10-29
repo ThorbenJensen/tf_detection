@@ -3,3 +3,11 @@
 # submodules
 /models
 /cocoapi
+
+# undesired .tfrecord output
+/images
+/annotations
+
+# downloaded data
+images.tar.gz*
+annotations.tar.gz*
