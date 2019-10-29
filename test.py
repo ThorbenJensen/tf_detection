@@ -45,7 +45,7 @@ PATH_TO_TEST_IMAGES_DIR = pathlib.Path('../models/research/object_detection/test
 TEST_IMAGE_PATHS = sorted(list(PATH_TO_TEST_IMAGES_DIR.glob("*.jpg")))
 TEST_IMAGE_PATHS
 
-model_name = "ssd_mobilenet_v1_coco_2017_11_17"
+model_name = "ssdlite_mobilenet_v2_coco_2018_05_09"
 detection_model = load_model(model_name)
 print(detection_model.inputs)
 
