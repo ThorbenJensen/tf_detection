@@ -1,0 +1,17 @@
+name: tf_detection
+
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - Cython
+    - contextlib2
+    - pillow
+    - lxml
+    - jupyter
+    - matplotlib
+    - tensorflow~=2.0.0
+    # dev
+    - black
+    - flake8
+    - rope
