@@ -1,3 +1,5 @@
+""" Test object detection. Requires tensorflow==2.0.0 """
+
 # %%
 import numpy as np
 import sys
